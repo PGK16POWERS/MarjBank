@@ -13,58 +13,148 @@ body {
     position: relative;
     overflow-x: hidden;
     background-color: rgb(61,100,231);
+    font-family: var(--monts);
+    flex-direction: column;
+    align-items: center;
+    display: flex;
 }
 
+:root {
+    --inria: 'Inria Sans', sans-serif;
+    --monts: 'Montserrat', sans-serif;
+}
 
+section {
+    width: 95%;
+    box-shadow: 1px 3px 4px rgba(144, 144, 144, 0.288);
+    padding: 2rem 3rem;
+}
 
-
-
+.global-header-4 {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: 2px dashed white;
+    border-radius: 30px;
+}
 
 
 /**** HEADER SECTION ****/
 header {
-    height: 12vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 2rem;
+    padding: 2rem 1rem;
+    width: 90%;
+    align-self: center;
 }
 
+.brand-logo {
+    width: 160px;
+}
 
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
 
+.header-links {
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    color: #f2f1ec;
+    font-weight: 400;
+}
+
+.cre-acc-link {
+    font-size: 0.9em;
+    padding: 0.7rem 2rem;
+    border: 2px solid #f2f1ec;
+    border-radius: 30px
+}
 
 /**** HEADER SECTION ****/ 
 
 
 /**** HERO-SECTION ****/
 #hero-section {
-    margin: 2rem;
-    padding: 1rem;
     border: 0 solid transparent;
     border-radius: 5px;
     background-color: rgb(22,27,47);
     min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100%;
+    
 }
 
+.hs-left {
+    display: flex;
+    padding: 0 2rem;
+    justify-content: center;
+    align-items: center;
+}
 
+.hs-left-inner-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
 
+.hs-left-inner-div h4 {
+    color: rgb(255, 174, 11);
+}
 
+.hs-left-inner-div h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: white;
+}
 
+.hs-left-inner-div p {
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: white;
+    line-height: 28px;
+}
+
+.explore-link {
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding: 0.8rem 2rem;
+    border: 0 solid transparent;
+    background-color: rgb(255, 174, 11);
+    color: white;
+    border-radius: 30px;
+    margin-top: 2rem;
+}
 /**** HERO-SECTION ****/
 
 
 /**** FEATURES SECTION ****/
 #features {
     margin: 2rem;
-    padding: 1rem;
     border: 0 solid transparent;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     min-height: 80vh;
 }
+.sect-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
 
-
-
+.sect-header h4 {
+    color: rgb(206, 160, 221);
+    border-color: rgba(137, 43, 226, 0.721);
+}
 
 /**** FEATURES SECTION ****/
 
@@ -101,7 +191,7 @@ header {
 
 /**** ABOUT US SECTION ****/
 #faq {
-    
+
 }
 
 /**** FAQ SECTION ****/
