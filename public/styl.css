@@ -12,4 +12,102 @@ a,li {
 body {
     position: relative;
     overflow-x: hidden;
+    background-color: rgb(61,100,231);
 }
+
+
+
+
+
+
+
+/**** HEADER SECTION ****/
+header {
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+
+
+
+/**** HEADER SECTION ****/ 
+
+
+/**** HERO-SECTION ****/
+#hero-section {
+    margin: 2rem;
+    padding: 1rem;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    background-color: rgb(22,27,47);
+    min-height: 80vh;
+}
+
+
+
+
+
+/**** HERO-SECTION ****/
+
+
+/**** FEATURES SECTION ****/
+#features {
+    margin: 2rem;
+    padding: 1rem;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    min-height: 80vh;
+}
+
+
+
+
+/**** FEATURES SECTION ****/
+
+
+/**** FEATURED PRODUCT ****/
+#featured-product {
+    margin: 2rem;
+    padding: 1rem;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    background-color: rgb(23, 28, 48);
+    min-height: 50vh;
+}
+
+
+
+
+/**** FEATURED PRODUCT ****/
+
+
+/**** ABOUT US SECTION ****/
+#aboutus {
+    margin: 2rem;
+    padding: 1rem;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+}
+
+
+
+
+
+/**** ABOUT US SECTION ****/
+#faq {
+    
+}
+
+/**** FAQ SECTION ****/
+
+
+
+
+
+/**** FAQ SECTION ****/
