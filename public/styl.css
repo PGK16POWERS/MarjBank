@@ -452,14 +452,165 @@ nav ul {
     width: 300px
 }
 /**** ABOUT US SECTION ****/
-#faq {
 
+/**** FAQ SECTION ****/
+#faq {
+    margin: 2rem;
+    border: 0 solid transparent;
+    min-height: 100vh;
 }
 
+.faq-parent {
+    padding: 2rem;
+    border: 0 solid transparent;
+    border-radius: 10px;
+    background-color: #f2f1ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 3rem
+}
+
+.faq-child {
+    border-top: 1px solid rgb(224, 213, 189);
+    border-bottom: 1px solid rgb(224, 213, 189);
+    border-left: 0 solid transparent;
+    border-right: 0 solid transparent;
+    padding: 1.5rem 1rem;
+}
+
+#ex-more, #con-less {
+    font-size: 40px;
+}
+
+#ex-more {
+    display: none;
+}
+
+.fc-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem
+}
+
+.fc-header p {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
+
+
+
 /**** FAQ SECTION ****/
 
+/**** TESTIMONIALS SECTION ****/
+#testimonials {
+    margin: 2rem;
+    border: 0 solid transparent;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.testimonials-parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 50%);
+    gap: 2rem;
+    align-items: center;
+}
+
+.testimony {
+    width: 280px;
+    padding: 1rem;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    box-shadow: 1px 3px 4px gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+}
+
+.testimony p {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.testimony div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem
+}
+
+.testimony div h3 {
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+/**** TESTIMONIALS SECTION ****/
+
+/**** INSIGHT SECTION ****/
+#insights {
+    position: relative;
+    margin-top: 4rem;
+    min-height: 80vh;
+    width: 100%;
+    background-color: rgba(30, 143, 255, 0.099);
+    padding: 1rem;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+#insights .sect-header {
+    position: relative;
+}
+
+.ins {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.ins-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.ins-child {
+    width: 280px;
+    min-height: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.ins-img {
+    height: 100%;
+    width: 100%;
+    border: 0 solid transparent;
+    border-radius: 5px 5px 0 0;
+}
+
+.bot-ins {
+    padding: 1rem;
+}
 
 
 
 
-/**** FAQ SECTION ****/
+/**** INSIGHT SECTION ****/
