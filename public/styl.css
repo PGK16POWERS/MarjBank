@@ -133,6 +133,16 @@ nav ul {
     border-radius: 30px;
     margin-top: 2rem;
 }
+
+.hs-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 100%
+}
 /**** HERO-SECTION ****/
 
 
@@ -265,6 +275,12 @@ nav ul {
     color: rgb(73, 73, 73)
 }
 
+.serv-child-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .gl-link {
     padding: 0.9rem 2rem;
     border: 0 solid transparent;
@@ -286,7 +302,7 @@ nav ul {
     background-color: rgb(23, 28, 48);
     min-height: 40vh;
     display: grid;
-    grid-template-columns: 3fr 3fr auto;
+    grid-template-columns: 3fr auto auto;
     grid-template-rows: 100%;
     align-items: center;
 }
@@ -356,6 +372,10 @@ nav ul {
     background-color: orange;
 }
 
+.feat-image {
+    width: 250px;
+}
+
 /**** FEATURED PRODUCT ****/
 
 
@@ -378,6 +398,16 @@ nav ul {
     border-radius: 5px;
     padding: 1rem 2rem;
     align-items: center;
+}
+
+.tad-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abo-image {
+    transform: scale(120%);
 }
 
 #aboutus .sect-header h4 {
@@ -415,6 +445,11 @@ nav ul {
     gap: 0.5rem
 }
 
+.small-icon {
+    width: 40px;
+    margin-right: 1rem;
+}
+
 .lm-link {
     margin-top: 1rem;
     padding: 0.7rem 2rem;
@@ -442,7 +477,11 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+}
+
+.aid-inner-divs h5 {
+    font-size: 1.3em;
+    font-weight: 600;
 }
 
 .aid-left p {
@@ -451,6 +490,7 @@ nav ul {
     font-weight: 500;
     width: 300px
 }
+
 /**** ABOUT US SECTION ****/
 
 /**** FAQ SECTION ****/
@@ -614,3 +654,48 @@ nav ul {
 
 
 /**** INSIGHT SECTION ****/
+
+/**** MOBILE APP ****/
+#mobile-app {
+    margin-top: 2rem;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    background-color: rgb(23, 28, 48);
+    min-height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mobile-app .sect-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem
+}
+
+#mobile-app .sect-header h4 {
+    color: rgb(255, 162, 0);
+    border-color: rgba(255, 255, 255, 0.721);
+}
+
+#mobile-app .sect-header h2 {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+
+#mobile-app .sect-header p {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 0.7em;
+}
+
+
+
+
+/**** MOBILE APP ****/
