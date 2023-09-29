@@ -74,6 +74,12 @@ nav ul {
     border-radius: 30px
 }
 
+@media (max-width: 1000px) {
+    header {
+        border: 2px solid #f2f1ec
+    }
+}
+
 /**** HEADER SECTION ****/ 
 
 
@@ -596,6 +602,16 @@ nav ul {
     font-weight: 500;
 }
 
+.testimony .small-icon {
+    width: 160px;
+    align-self: center;
+}
+
+.small-face {
+    width: 40px;
+    align-self: center;
+}
+
 /**** TESTIMONIALS SECTION ****/
 
 /**** INSIGHT SECTION ****/
@@ -626,10 +642,10 @@ nav ul {
 
 .ins-parent {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    width: 100%;
 }
 
 .ins-child {
@@ -695,6 +711,15 @@ nav ul {
     font-size: 0.7em;
 }
 
+.app-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect-img {
+    width: 250px
+}
 
 
 
